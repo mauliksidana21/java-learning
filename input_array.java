@@ -14,10 +14,15 @@ public class input_array {
         int n = arr.length;
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("ENTER ARRAY ELEMENTS : ");
         for (int i=0; i<n;i++){
-            System.out.println("ENTER ARRAY ELEMENTS : ");
             arr[i] = sc.nextInt();
-            
+
+        }
+        System.out.println("array is -> ");
+        for(int val:arr){
+            System.out.println(val);
+
         }
 
     }
