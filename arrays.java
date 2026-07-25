@@ -8,6 +8,7 @@ public class arrays {
 
         System.out.println("value at 0th index " + brr[0]);
         System.out.println("value at 1st index " + brr[1]);
+        System.out.println("value at 2nd index " + brr[2]);
 
 
 
