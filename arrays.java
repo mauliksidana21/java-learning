@@ -9,21 +9,23 @@ public class arrays {
         System.out.println("value at 0th index " + brr[0]);
         System.out.println("value at 1st index " + brr[1]);
         System.out.println("value at 2nd index " + brr[2]);
-        //accesing array elements :
-        System.out.println("value at 0th index " + brr[0]);
-        System.out.println("value at 1st index " + brr[1]);
-        System.out.println("value at 2nd index " + brr[2]);
+        System.out.println("-------------------");
 // uysing for loop
         for (int i=0;i<3;i++){
             System.out.println("array is -> "+brr[i]);
         }
+        System.out.println("-------------------");
         // or we can also use length function
         int n = brr.length;
         for(int i=0;i<n;i++){
             System.out.println("array is -> "+brr[i]);
         }
 
-
+        System.out.println("-------------------");
+// by using for each loop
+        for(int i : brr){
+            System.out.println("array is -> "+i);
+        }
 
     }
 }
